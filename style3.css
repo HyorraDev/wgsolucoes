@@ -1,0 +1,185 @@
+*{  
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(../css3/preview-86411-3CwEeCfDmm-high_0008.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
+}
+
+img{
+    position:absolute;
+}
+
+a{
+    color: #00f5f5;
+    text-decoration: none;
+    transition: 1.0s;
+    
+}
+
+a:hover{
+    transform:scale(1.2);
+    color: black;
+
+}
+.anuncio:hover{
+    transform: rotateX(360deg);
+}
+
+a:hover{
+   
+    background-color: aliceblue;
+    border-radius: 16px;   
+}
+
+.logo{
+    text-transform: scale(1.1);
+    font-size:50px;
+    text-transform: uppercase;
+    letter-spacing:5px ;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui;
+    background: rgb(0, 0, 0);
+    height: 12vh;
+}
+
+.text:hover{
+    transform: scale(1.1);
+}
+.anuncio{
+    
+    transition: 1.0s;
+    background: local;
+    background-color:#ad0000;
+    align-content: flex-start;
+    color: rgb(255, 255, 255);
+}
+
+.rodapé{
+    transform: rotateX(360deg);
+    margin-top:63%;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(14, 5, 5);
+    border-radius:13px;
+}
+
+.span:hover{
+    transform: scale(1.0);
+}
+.span{
+    transition: 1.0s;
+    color: aliceblue;
+}
+
+.contanier{
+    position:absolute;
+    background-color: #306c70;
+    width: 100%;
+    height: 120%;
+    margin: 40%;
+    margin-inline: 0%;
+}
+.text1{
+    color: rgb(255, 251, 251);
+    position: relative;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.whatzap{
+    top: 2%;
+    width: 8%;
+    height: 13%;
+    margin:2%;
+    background-image: url(../css2/image.incone.jpg);
+    transition: 0.2s;
+    border-radius:128%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    
+}
+
+.instagran{
+    width:8%;
+    height: 13%;
+    margin:2%;
+    background-image: url(../css2/instragan.jpg);
+    transition: 0.2s;
+    border-radius:128%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+.facebook{
+    width: 8%;
+    height: 13%;
+    margin:2%;
+    background-image:url(../css2/facebook.jpg) ;
+    transition: 0.2s;
+    border-radius:128%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+.whatzap:hover{ 
+    transform: scale(1.2);
+}
+.instagran:hover{
+     transform:scale(1.2)
+}
+.facebook:hover{
+    transform: scale(1.2);
+}
+ 
+.lados{
+    color: black;
+    font-size: 24px;
+    background-color:deepskyblue;
+   margin-top: 100px;
+    width: 96%;
+    align-content: space-around;
+    display: flex;
+    padding: 10px;
+}
+
+
+.suporte{
+    transition: 0.5s;
+    font-size: 20px;
+}
+.suporte:hover{
+    transform: scale(1.4);
+}
+.contatos{ transition: 0.5s;
+    font-size:20px;
+}
+.contatos:hover{
+    transform: scale(1.4);
+}
+.loguin{ transition: 0.5s;
+    font-size:20px;
+}
+.loguin:hover{
+    transform: scale(1.4);
+}
+.cadastro{ transition: 0.5s;
+    font-size:20px;
+}
+.cadastro:hover{
+    transform: scale(1.4);
+}
